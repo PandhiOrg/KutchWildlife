@@ -222,7 +222,6 @@ a .gal-text {
     color: #fdd340 !important;
 }
 
-
 .text-white * {
     color: #fff !important;
 }
@@ -241,7 +240,6 @@ a .gal-text {
     z-index: 99999999999 !important;
 }
 
-
 .typer {
     margin: 8px;
     width: 18%;
@@ -252,9 +250,7 @@ p.heading {
     font-weight: normal;
 }
 
-
 .counter-small {
-
     * {
         font-size: 1.2rem !important;
     }
@@ -262,6 +258,12 @@ p.heading {
 
 .w-25 {
     width: 25% !important;
+    max-width: 25% !important;
+}
+
+.flag {
+    width: 26px;
+    height: auto;
 }
 
 li.breaker {
@@ -280,7 +282,6 @@ li.breaker {
     color: #005cf5 !important;
 }
 
-
 span em {
     font-family: "Covered By Your Grace", cursive;
     text-transform: none !important;
@@ -292,4 +293,147 @@ kbd {
     background: #efefef;
     color: #016565;
     padding: 3px 6px;
+}
+
+.shadow {
+    text-shadow: 0 6px 6px rgba(0,0,0,0.9), 0 9px 12px rgba(0,0,0,0.6), 0 15px 33px rgba(0,0,0,0.5);
+}
+
+.gallery {
+    h3 {
+        font-weight: normal;
+
+        em {
+            font-family: "Covered By Your Grace", cursive;
+            text-transform: none !important;
+            font-size: 3rem;
+            font-weight: normal;
+        }
+    }
+}
+
+
+
+.table {
+    thead, tfoot {
+        th {
+            padding-left: 10px !important;
+
+            input, select {
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    th:first-child, td:first-child, td:nth-child(5), td:nth-child(6),
+    th:nth-child(5), th:nth-child(6) {
+        width: 80px;
+        max-width: 80px !important;
+    }
+
+    td:nth-child(4),
+    th:nth-child(4) {
+        width: 120px;
+        max-width: 120px !important;
+    }
+
+    th:last-child, td:last-child, tfoot th:nth-child(6) input {
+        display: none;
+    }
+
+    tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+    td {
+        span {
+            border-radius: 3px;
+            padding: 2px 4px;
+            font-size: 13px;
+        }
+    }
+
+    .xMigratory, .xNative, .xVagrant {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .xMigratory {
+        color: #0e7f7f;
+    }
+
+    .xNative {
+        color: #4c236c;
+    }
+
+    .xVagrant {
+        color: #b2310f;
+    }
+
+    .LC {
+        color: #016565;
+    }
+
+    .NT {
+        color: #016565;
+    }
+
+    .VU {
+        color: #cb980e;
+    }
+
+    .EN {
+        color: #cb642f;
+    }
+
+    .CR {
+        color: #f00;
+    }
+
+    .EW {
+        color: #000;
+    }
+
+    .EX {
+        color: #000;
+    }
+
+    .DD {
+        color: #555;
+    }
+
+    .NE {
+        color: #222;
+    }
+
+    .status-icon {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+
+    tr {
+        /*transition: background-color linear 0.1s;*/
+        &:hover {
+            /*transition: background-color linear 0.1s;*/
+            background-color: #f0f0f0 !important;
+        }
+    }
+}
+
+
+.warning {
+    border-radius: 4px;
+    background: #fdd340;
+    color: #000;
+    font-weight: bold;
+}
+
+.grace {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 100 !important;
 }

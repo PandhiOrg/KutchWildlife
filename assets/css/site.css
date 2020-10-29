@@ -12424,7 +12424,7 @@ a:hover {
   background: url("/assets/img/icons/other.png") no-repeat; }
 
 .research-data ol li {
-  margin-bottom: 2rem;
+  margin-bottom: 0.65rem;
   transition: all linear 0.3s;
   padding: 1rem;
   border-radius: 6px; }
@@ -12437,10 +12437,12 @@ a:hover {
     .research-data ol li a:hover {
       color: #54310f;
       transition: all linear 0.3s; }
+  .research-data ol li strong, .research-data ol li em {
+    display: block; }
   .research-data ol li strong {
-    font-size: 0.8rem !important; }
+    font-size: 0.8rem !important;
+    color: #5f5f5f; }
   .research-data ol li em {
-    display: inline-block;
     padding-left: 2rem;
     margin-top: 0.3rem;
     color: #444;
@@ -15766,7 +15768,12 @@ p.heading {
   font-size: 1.2rem !important; }
 
 .w-25 {
-  width: 25% !important; }
+  width: 25% !important;
+  max-width: 25% !important; }
+
+.flag {
+  width: 26px;
+  height: auto; }
 
 li.breaker {
   clear: both;
@@ -15791,3 +15798,104 @@ kbd {
   background: #efefef;
   color: #016565;
   padding: 3px 6px; }
+
+.shadow {
+  text-shadow: 0 6px 6px rgba(0, 0, 0, 0.9), 0 9px 12px rgba(0, 0, 0, 0.6), 0 15px 33px rgba(0, 0, 0, 0.5); }
+
+.gallery h3 {
+  font-weight: normal; }
+  .gallery h3 em {
+    font-family: "Covered By Your Grace", cursive;
+    text-transform: none !important;
+    font-size: 3rem;
+    font-weight: normal; }
+
+.table thead th, .table tfoot th {
+  padding-left: 10px !important; }
+  .table thead th input, .table thead th select, .table tfoot th input, .table tfoot th select {
+    font-size: 12px;
+    font-weight: bold; }
+
+.table th:first-child, .table td:first-child, .table td:nth-child(5), .table td:nth-child(6),
+.table th:nth-child(5), .table th:nth-child(6) {
+  width: 80px;
+  max-width: 80px !important; }
+
+.table td:nth-child(4),
+.table th:nth-child(4) {
+  width: 120px;
+  max-width: 120px !important; }
+
+.table th:last-child, .table td:last-child, .table tfoot th:nth-child(6) input {
+  display: none; }
+
+.table tfoot input {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box; }
+
+.table td span {
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 13px; }
+
+.table .xMigratory, .table .xNative, .table .xVagrant {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.table .xMigratory {
+  color: #0e7f7f; }
+
+.table .xNative {
+  color: #4c236c; }
+
+.table .xVagrant {
+  color: #b2310f; }
+
+.table .LC {
+  color: #016565; }
+
+.table .NT {
+  color: #016565; }
+
+.table .VU {
+  color: #cb980e; }
+
+.table .EN {
+  color: #cb642f; }
+
+.table .CR {
+  color: #f00; }
+
+.table .EW {
+  color: #000; }
+
+.table .EX {
+  color: #000; }
+
+.table .DD {
+  color: #555; }
+
+.table .NE {
+  color: #222; }
+
+.table .status-icon {
+  font-size: 12px;
+  font-weight: bold; }
+
+.table tr {
+  /*transition: background-color linear 0.1s;*/ }
+  .table tr:hover {
+    /*transition: background-color linear 0.1s;*/
+    background-color: #f0f0f0 !important; }
+
+.warning {
+  border-radius: 4px;
+  background: #fdd340;
+  color: #000;
+  font-weight: bold; }
+
+.grace {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 100 !important; }
