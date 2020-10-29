@@ -1,0 +1,295 @@
+﻿/*@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700");*/
+@import "_framework.scss";
+@import url("https://use.typekit.net/krl3wiq.css");
+@import "_wiki.scss";
+@import "_search.scss";
+@import "_animate.scss";
+@import "_extras.scss";
+
+* {
+    font-family: "Circe";
+}
+
+.promo-primary {
+    background-color: rgba(0,0,0,0.33);
+}
+
+ul.classification {
+    padding-left: 1rem;
+
+    li {
+        list-style: none;
+
+        &:not(:first-child)::before {
+            content: "↳";
+            padding-right: 5px;
+        }
+    }
+}
+
+.main-menu__link .fa-instagram {
+    position: relative;
+    top: -3px !important;
+}
+
+.hero {
+    filter: blur(1.5rem);
+    object-position: center center;
+    left: -10%;
+    top: -10%;
+    transform: scale(1.3,1.3);
+}
+
+.prime {
+    background-color: #303030;
+    min-width: 20vw;
+    min-height: 20vw;
+    position: relative;
+    top: -20vh;
+    margin-bottom: -8vh;
+
+    @media(min-width: 1200px) {
+        top: -280px;
+        margin-bottom: -200px;
+    }
+}
+
+.species-details {
+    .shadow-lg {
+        box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+    }
+}
+
+.animal-links a {
+    display: block;
+    margin-bottom: 1rem;
+
+    @media(min-width: 1200px) {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+}
+
+.section-wiki {
+    background: #f3f4f5;
+}
+
+.counter-item__icon img {
+    width: 48px;
+    height: auto;
+}
+
+.js-counter {
+    font-size: 3rem;
+}
+
+.gal-item {
+    background-color: #222;
+    /*    .gal-img {
+        background: url("/assets/img/missing.png") no-repeat;
+        background-size: contain;
+    }*/
+    .gal-text {
+        background-color: rgba(0,0,0,0.5);
+        padding: 10px 16px;
+    }
+
+    .img--bg {
+        z-index: 0;
+        opacity: 0.9;
+    }
+
+    &:hover {
+        .img--bg {
+            opacity: 1;
+        }
+    }
+}
+
+.img--bg {
+    color: transparent;
+}
+
+.conservation-status {
+    p {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+
+    .status-icon {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding-top: 8px;
+        border: 2px solid #777;
+    }
+
+    .LC {
+        background-color: #016565;
+        color: #fff;
+    }
+
+    .NT {
+        background-color: #016565;
+        color: #a4d39d;
+    }
+
+    .VU {
+        background-color: #cb980e;
+        color: #e4d4a8;
+    }
+
+    .EN {
+        background-color: #cb642f;
+        color: #e3b7a0;
+    }
+
+    .CR {
+        background-color: #f00;
+        color: #fff;
+    }
+
+    .EW {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .EX {
+        background-color: #000;
+        color: #f00;
+    }
+
+    .DD {
+        background-color: #555;
+        color: #fff;
+    }
+
+    .NE {
+        background-color: #222;
+        color: #fff;
+    }
+}
+
+.gal-item {
+    .status-icon {
+        transform: scale(0.65);
+        border: 0;
+    }
+}
+
+.button-small {
+    border: 0;
+    border-bottom: 3px solid #fdd340;
+    padding: 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+
+    &:hover {
+        background: transparent;
+        color: #fdd340;
+    }
+}
+
+.cta-block {
+    .button-small {
+        border-bottom-color: #000;
+
+        &:hover {
+            color: #000;
+            border-bottom-color: #fff;
+        }
+    }
+}
+
+main a {
+    border-bottom: 3px solid #fdd340;
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+
+    &:hover {
+        background: transparent;
+        color: #fdd340;
+    }
+}
+
+a .gal-text {
+    color: #fdd340 !important;
+}
+
+
+.text-white * {
+    color: #fff !important;
+}
+
+.truncated {
+    max-width: 30vw;
+    text-overflow: ellipsis;
+    text-wrap: normal;
+}
+
+.float-right {
+    float: right !important;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 99999999999 !important;
+}
+
+
+.typer {
+    margin: 8px;
+    width: 18%;
+}
+
+p.heading {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+
+.counter-small {
+
+    * {
+        font-size: 1.2rem !important;
+    }
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+li.breaker {
+    clear: both;
+    display: block !important;
+    margin-top: 8px !important;
+    border-bottom: 1px solid yellow;
+    margin-bottom: 8px !important;
+}
+
+.color--orange {
+    color: #e26b1e !important;
+}
+
+.color--blue {
+    color: #005cf5 !important;
+}
+
+
+span em {
+    font-family: "Covered By Your Grace", cursive;
+    text-transform: none !important;
+    font-size: 3rem;
+}
+
+kbd {
+    border-radius: 3px;
+    background: #efefef;
+    color: #016565;
+    padding: 3px 6px;
+}
