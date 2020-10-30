@@ -155,6 +155,10 @@
     .plainlinks {
         display: none;
     }
+
+    .navigation-not-searchable[role="note"] {
+        display: none;
+    }
 }
 
 .credits {
@@ -223,7 +227,7 @@
                 }
             }
 
-            strong, em{
+            strong, em {
                 display: block;
             }
 

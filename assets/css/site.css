@@ -12393,6 +12393,9 @@ a:hover {
 #wiki .plainlinks {
   display: none; }
 
+#wiki .navigation-not-searchable[role="note"] {
+  display: none; }
+
 .credits {
   font-size: 0.75rem;
   margin-top: 0.7rem; }
@@ -15581,6 +15584,9 @@ body.has-search {
 .__autoitem:hover {
   background: #eee; }
 
+.main-menu__sub-list hr {
+  color: #ffd666; }
+
 * {
   font-family: "Circe"; }
 
@@ -15899,3 +15905,6 @@ kbd {
 .grace {
   font-family: "Covered By Your Grace", cursive;
   font-weight: 100 !important; }
+
+.species-list .gallery {
+  padding-top: 48px; }
