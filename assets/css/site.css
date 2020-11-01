@@ -15822,17 +15822,18 @@ kbd {
     font-size: 12px;
     font-weight: bold; }
 
-.table th:first-child, .table td:first-child, .table td:nth-child(5), .table td:nth-child(6),
-.table th:nth-child(5), .table th:nth-child(6) {
-  width: 80px;
-  max-width: 80px !important; }
+.table th:first-child, .table td:first-child, .table td:nth-child(6), .table td:nth-child(6) {
+  width: 70px;
+  max-width: 70px !important; }
 
-.table td:nth-child(4),
-.table th:nth-child(4) {
-  width: 120px;
-  max-width: 120px !important; }
+.table td:nth-child(2),
+.table th:nth-child(2),
+.table td:nth-child(3),
+.table th:nth-child(3) {
+  width: 200px;
+  max-width: 200px !important; }
 
-.table th:last-child, .table td:last-child, .table tfoot th:nth-child(6) input {
+.table th:last-child, .table td:last-child, .table tfoot th:nth-child(8) input {
   display: none; }
 
 .table tfoot input {
@@ -15896,6 +15897,9 @@ kbd {
     /*transition: background-color linear 0.1s;*/
     background-color: #f0f0f0 !important; }
 
+.table td {
+  font-size: 14px; }
+
 .warning {
   border-radius: 4px;
   background: #fdd340;
@@ -15908,3 +15912,10 @@ kbd {
 
 .species-list .gallery {
   padding-top: 48px; }
+
+.pos-bot {
+  position: relative;
+  top: 5px; }
+
+.ext:nth-child(1) {
+  margin-right: 1rem; }
