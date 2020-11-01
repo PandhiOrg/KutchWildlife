@@ -15919,3 +15919,16 @@ kbd {
 
 .ext:nth-child(1) {
   margin-right: 1rem; }
+
+.dataTables_filter {
+  float: left !important; }
+  .dataTables_filter input {
+    width: 28vw;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 100 !important;
+    font-size: 1.2rem;
+    border-radius: 0 !important;
+    border: 2px solid #ccc !important; }
+
+.dataTables_length {
+  float: right !important; }
