@@ -339,8 +339,9 @@ kbd {
         max-width: 200px !important;
     }
 
-    th:last-child, td:last-child, tfoot th:nth-child(8) input {
-        display: none;
+    td:nth-child(7),
+    th:nth-child(7) {
+        text-align: center !important;
     }
 
     tfoot input {
@@ -456,7 +457,7 @@ kbd {
 }
 
 
-.ext:nth-child(1) {
+.ext:not(:last-child) {
     margin-right: 1rem;
 }
 

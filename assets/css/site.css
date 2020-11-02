@@ -15833,8 +15833,9 @@ kbd {
   width: 200px;
   max-width: 200px !important; }
 
-.table th:last-child, .table td:last-child, .table tfoot th:nth-child(8) input {
-  display: none; }
+.table td:nth-child(7),
+.table th:nth-child(7) {
+  text-align: center !important; }
 
 .table tfoot input {
   width: 100%;
@@ -15917,7 +15918,7 @@ kbd {
   position: relative;
   top: 5px; }
 
-.ext:nth-child(1) {
+.ext:not(:last-child) {
   margin-right: 1rem; }
 
 .dataTables_filter {
