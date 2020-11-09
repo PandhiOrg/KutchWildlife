@@ -5598,6 +5598,12 @@ img {
 .button--primary {
   border: 2px solid #fdd340; }
 
+.button--black {
+  border: 2px solid #333; }
+
+.button--black:hover {
+  border-color: #fff; }
+
 .button--filled {
   border: 2px solid #fdd340;
   background: #fdd340; }
@@ -11919,7 +11925,7 @@ a:hover {
   display: inline-block; }
 
 .footer__link img {
-  height: 128px;
+  height: 96px;
   width: auto; }
 
 .footer p {
@@ -15933,3 +15939,11 @@ kbd {
 
 .dataTables_length {
   float: right !important; }
+
+hr {
+  color: #f0f0f0;
+  opacity: 0.5; }
+
+.w-50 {
+  width: 50% !important;
+  max-width: 50% !important; }

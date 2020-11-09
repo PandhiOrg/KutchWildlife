@@ -7989,6 +7989,14 @@ img {
     border: 2px solid #fdd340
 }
 
+.button--black {
+    border: 2px solid #333
+}
+
+.button--black:hover {
+    border-color: #fff;
+}
+
 .button--filled {
     border: 2px solid #fdd340;
     background: #fdd340
@@ -15776,7 +15784,7 @@ a:hover {
 }
 
 .footer__link img {
-    height: 128px;
+    height: 96px;
     width: auto
 }
 
