@@ -15866,26 +15866,6 @@ kbd {
     font-size: 12px;
     font-weight: bold; }
 
-.table th:first-child, .table td:first-child, .table td:nth-child(6), .table td:nth-child(6) {
-  width: 70px;
-  max-width: 70px !important; }
-
-.table td:nth-child(2),
-.table th:nth-child(2),
-.table td:nth-child(3),
-.table th:nth-child(3) {
-  width: 200px;
-  max-width: 200px !important; }
-
-.table td:nth-child(7),
-.table th:nth-child(7) {
-  text-align: center !important; }
-
-.table tfoot input {
-  width: 100%;
-  padding: 3px;
-  box-sizing: border-box; }
-
 .table td span {
   border-radius: 3px;
   padding: 2px 4px;
@@ -15945,6 +15925,26 @@ kbd {
 .table td {
   font-size: 14px; }
 
+.species-table th:first-child, .species-table td:first-child, .species-table td:nth-child(6), .species-table td:nth-child(6) {
+  width: 70px;
+  max-width: 70px !important; }
+
+.species-table td:nth-child(2),
+.species-table th:nth-child(2),
+.species-table td:nth-child(3),
+.species-table th:nth-child(3) {
+  width: 200px;
+  max-width: 200px !important; }
+
+.species-table td:nth-child(7),
+.species-table th:nth-child(7) {
+  text-align: center !important; }
+
+.species-table tfoot input {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box; }
+
 .warning {
   border-radius: 4px;
   background: #fdd340;
@@ -15985,3 +15985,15 @@ hr {
 .w-50 {
   width: 50% !important;
   max-width: 50% !important; }
+
+.research-table th:nth-child(3), .research-table td:nth-child(3) {
+  width: 300px !important;
+  max-width: 300px !important; }
+
+.research-table td a {
+  border-bottom: 0; }
+
+.main-menu__link i {
+  font-weight: normal !important;
+  position: relative;
+  top: -4px; }

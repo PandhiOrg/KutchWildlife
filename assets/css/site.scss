@@ -326,29 +326,6 @@ kbd {
         }
     }
 
-    th:first-child, td:first-child, td:nth-child(6), td:nth-child(6) {
-        width: 70px;
-        max-width: 70px !important;
-    }
-
-    td:nth-child(2),
-    th:nth-child(2),
-    td:nth-child(3),
-    th:nth-child(3) {
-        width: 200px;
-        max-width: 200px !important;
-    }
-
-    td:nth-child(7),
-    th:nth-child(7) {
-        text-align: center !important;
-    }
-
-    tfoot input {
-        width: 100%;
-        padding: 3px;
-        box-sizing: border-box;
-    }
 
     td {
         span {
@@ -431,6 +408,36 @@ kbd {
     }
 }
 
+.species-table {
+
+
+    th:first-child, td:first-child, td:nth-child(6), td:nth-child(6) {
+        width: 70px;
+        max-width: 70px !important;
+    }
+
+
+
+    td:nth-child(2),
+    th:nth-child(2),
+    td:nth-child(3),
+    th:nth-child(3) {
+        width: 200px;
+        max-width: 200px !important;
+    }
+
+    td:nth-child(7),
+    th:nth-child(7) {
+        text-align: center !important;
+    }
+
+    tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+}
+
 
 .warning {
     border-radius: 4px;
@@ -489,5 +496,23 @@ hr {
 .w-50 {
     width: 50% !important;
     max-width: 50% !important;
-   
+}
+
+
+.research-table {
+    th:nth-child(3), td:nth-child(3) {
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+
+    td a {
+        border-bottom: 0;
+    }
+}
+
+
+.main-menu__link i {
+    font-weight: normal !important;
+    position: relative;
+    top: -4px;
 }
