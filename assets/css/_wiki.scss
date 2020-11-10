@@ -1,4 +1,71 @@
-﻿#wiki {
+﻿
+.adw-data {
+
+    .row:not(:last-child) {
+        border-bottom: 1px solid #ffe9c9;
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+
+    dd {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 12px;
+    }
+
+    .adw-cite{
+        font-size: 9px;
+    }
+}
+
+.block-grid.one-up {
+}
+
+.block-grid.two-up {
+}
+
+.block-grid.two-up > li {
+    width: 46%;
+}
+
+.block-grid.two-up > li:nth-child(2n+1) {
+    clear: left;
+}
+
+.block-grid.three-up {
+    margin-left: -2%
+}
+
+.block-grid.three-up > li {
+    width: 31.2%;
+}
+
+.block-grid.three-up > li:nth-child(3n+1) {
+    clear: left;
+}
+
+.block-grid.four-up {
+}
+
+.block-grid.four-up > li {
+    width: 23%;
+}
+
+.block-grid.four-up > li:nth-child(4n+1) {
+    clear: left;
+}
+
+.block-grid.five-up {
+}
+
+.block-grid.five-up > li {
+    width: 18.5%;
+}
+/*  .block-grid.five-up>li:nth-child(5n+1) {clear: left;} */
+
+
+
+#wiki {
     * {
         transition: all linear 0.3s;
     }

@@ -11655,7 +11655,7 @@ a:hover {
 .gal-item-h2::before {
   content: "";
   display: block;
-  padding-top: 84.21053%; }
+  padding-top: 84.515%; }
 
 .gal-item-h3::before {
   content: "";
@@ -11665,7 +11665,7 @@ a:hover {
 .gal-item-h4::before {
   content: "";
   display: block;
-  padding-top: 42.10526%; }
+  padding-top: 42.1526%; }
 
 .gal-item:hover .gal-text {
   background: #fdd340; }
@@ -12281,6 +12281,44 @@ a:hover {
 .footer--front_5 .socials__link {
   font-size: 20px; }
 
+.adw-data .row:not(:last-child) {
+  border-bottom: 1px solid #ffe9c9;
+  font-size: 13px;
+  margin-bottom: 16px; }
+
+.adw-data dd {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 12px; }
+
+.adw-data .adw-cite {
+  font-size: 9px; }
+
+.block-grid.two-up > li {
+  width: 46%; }
+
+.block-grid.two-up > li:nth-child(2n+1) {
+  clear: left; }
+
+.block-grid.three-up {
+  margin-left: -2%; }
+
+.block-grid.three-up > li {
+  width: 31.2%; }
+
+.block-grid.three-up > li:nth-child(3n+1) {
+  clear: left; }
+
+.block-grid.four-up > li {
+  width: 23%; }
+
+.block-grid.four-up > li:nth-child(4n+1) {
+  clear: left; }
+
+.block-grid.five-up > li {
+  width: 18.5%; }
+
+/*  .block-grid.five-up>li:nth-child(5n+1) {clear: left;} */
 #wiki * {
   transition: all linear 0.3s; }
 
