@@ -15997,3 +15997,6 @@ hr {
   font-weight: normal !important;
   position: relative;
   top: -4px; }
+
+.prizes strong {
+  font-size: 1.2rem; }
